@@ -9,6 +9,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Call us and we will take your Christmas tree to your address in Vail in just 48 hours you just enjoy your vacation call us 970-471-3312">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="http://vailbutler.com/images/favicon.png" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
