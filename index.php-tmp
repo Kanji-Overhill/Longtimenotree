@@ -17,14 +17,14 @@ require 'tools.php';
     <main>
     	<section class="container-fluid">
     		<div class="row align-items-center">
-    			<div class="col-8">
+    			<div class="col-md-8  col-sm-12">
     				<h1>Order your Christmas Tree <br>Today!</h1>
     				<h3>$150.00</h3>
     				<b>Delivery & Stand Included</b>
     				<h3>3-4 FT Fresh Cut Christmas Tree</h3>
     				<p>Questions? <span>call us 970-471-3312</span></p>
     			</div>
-    			<div class="col-4">
+    			<div class="col-md-4 col-sm-12">
     				<div class="row">
     					<div class="col-12">
     						<h2>Place your order now</h2>

@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['mayorista'])) {
+if (isset($_POST['send'])) {
 
 	$email_to = "ingluisfelipe07@gmail.com, contact@vailbutler.com";
 
@@ -37,13 +37,9 @@ if (isset($_POST['mayorista'])) {
 
 		970-471-3312<br>
 		JJ@VailButler.com<br>
-		www.longtimenotree.com"
+		www.longtimenotree.com";
 
-	$headers = 'From: '.$email_from."\r\n".
-
-	'Reply-To: '.$email_from."\r\n".
-
-	'X-Mailer: PHP/'.phpversion();
+	$headers = 'From: '.$email_from."\r\n".'Reply-To: '.$email_from."\r\n".'X-Mailer: PHP/'.phpversion();
 
 	mail($email_to, $email_subject, $email_message, $headers);
 	mail($_POST['email'], 'Confirmation Email', $email_message2, $headers);
