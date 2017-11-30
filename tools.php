@@ -26,18 +26,16 @@ if(isset($_POST['send'])) {
 
 		Thank you for your Christmas Tree order!
 
-		Deliveries are scheduled for every Tuesday and Friday up until Christmas day. Orders must be made
-		48hrs. in advance in order to be confirmed.
+		Deliveries are scheduled for every Tuesday and Friday up until Christmas day.
 
-		We will notify you once your tree is out for delivery.
-		Sit tight while we get your tree cut and delivered, you will have the smell of a fresh cut tree in your
-		home very soon.
+		We will call you shortly to set up the delivery and take your payment. 
 
-
-		Thanks again and Happy Holidays!
+		Thanks and Happy Holidays!
 
 		970-471-3312
+
 		JJ@VailButler.com
+
 		www.longtimenotree.com";
 
 		$headers = 'From: '.$email_from."\r\n".'Reply-To: '.$email_from."\r\n".'X-Mailer: PHP/'.phpversion();

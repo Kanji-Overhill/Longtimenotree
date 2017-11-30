@@ -21,9 +21,9 @@
     		<div class="row align-items-center">
     			<div class="col-md-8  col-sm-12">
     				<h1>Order your Christmas Tree <br>Today!</h1>
-    				<h3>$150.00</h3>
+    				<h3>$195.00</h3>
     				<b>Delivery & Stand Included</b>
-    				<h3>3-4 FT Fresh Cut Christmas Tree</h3>
+    				<h3>6-7 FT Fresh Cut Christmas Tree</h3>
     				<p>Questions? <span>call us 970-471-3312</span></p>
     			</div>
     			<div class="col-md-4 col-sm-12">
@@ -73,14 +73,9 @@
 					  		</div>
 					  	</div>
 					  	<div class="row">
-					  		<div class="col-6">
+					  		<div class="col-12">
 					  			<div class="form-group">
 							    	<input type="number" name="zip" class="form-control" placeholder="*Zip Code" required>
-							  	</div>
-					  		</div>
-					  		<div class="col-6">
-					  			<div class="form-group">
-							    	<input type="text" name="payment" class="form-control" placeholder="*Payment Information" required>
 							  	</div>
 					  		</div>
 					  	</div>
@@ -94,12 +89,19 @@
 					  	<div class="row">
 					  		<div class="col-12">
 					  			<div class="form-group">
-					  				<textarea required class="form-control" name="stand" rows="2" placeholder="*How did you Hear About Us"></textarea>
+					  				<p>*How did you Hear About Us</p>
+					  				<select name="stand" required class="form-control">
+					  					<option value="Acoma UDR Apartment">Acoma UDR Apartment</option>
+					  					<option value="16th Street Mall">16th Street Mall</option>
+					  					<option value="Website">Website</option>
+					  					<option value="Wash Park (Gaylord Street)">Wash Park (Gaylord Street)</option>
+					  				</select>
 					  			</div>
 					  			<div class="form-group">
 					  				<input type="submit" value="Send" name="send">
 					  			</div>
-					  			<p>*Orders must be placed 48hrs. in advance</p>
+					  			<p>*Orders must be placed 48 hrs. in advance<br>
+								Please allow three days for delivery. Delivery charges may apply if you are more than 10 miles from Denver’s 16th Street Mall. </p>
 					  		</div>
 					  	</div>
 					</form>
@@ -108,5 +110,14 @@
     	</section>
     </main>
     <footer></footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64257742-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-64257742-13');
+	</script>
   </body>
 </html>
